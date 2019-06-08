@@ -62,6 +62,7 @@ public class Triangle extends Shape {
 
     @Override
     public String toString() {
+        //Áp dụng bất đẳng thức tam giác để xét xem giá trị 3 cạnh nhập vào có phải là tam giác hay không
         if (side1 + side2 > side3 && side1 + side3 > side2 && side2 + side3 > side1) {
             return "This is a triangle which is a subclass of "
                     + super.toString()
