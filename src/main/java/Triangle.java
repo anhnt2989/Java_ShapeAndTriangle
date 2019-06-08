@@ -1,10 +1,10 @@
 public class Triangle extends Shape {
-    double side1, side2, side3;
+    double side1 = 1.0;
+    double side2 = 1.0;
+    double side3 = 1.0;
 
     Triangle() {
-        this.side1 = 1.0;
-        this.side2 = 1.0;
-        this.side3 = 1.0;
+   
     }
 
     Triangle(String color, boolean filled, double side1, double side2, double side3) {
